@@ -1,0 +1,141 @@
+*{
+			margin: 0
+			padding: 0;
+}
+/*header start*/
+header{
+			overflow: hidden;
+}
+.wrapper{
+			background-color: white;
+			/*width: 90%;*/
+			margin: 0 auto;
+}
+.logo{
+			/*border: 1px solid black;*/
+			width: 20%;
+			float: left;
+}
+.logo img{
+			width: 100%;
+}
+.menu{
+			/*border: 1px solid black;*/
+			width: 75%;
+			float: right;
+}
+.menu ul{
+			float: right;
+}
+.menu ul li{
+			list-style: none;
+			float: left;
+}
+.menu ul li a{
+			text-decoration: none;
+			color: black;
+			font-weight: 600;
+			padding: 45px;
+			transition: 0.6s;
+}
+.menu ul li a:hover{
+			color: blue;
+}
+.menu ul li:last-child a{
+			padding-right: 0;
+}
+/*header end*/
+/*banner start*/
+#banner{
+		background-image: url(../Images/Background.jpeg);
+		background-position: center;
+		min-height: 300px;
+		overflow: hidden;
+		background-repeat: no-repeat;
+}
+.dream{
+			float: left;
+			width: 16%;
+			padding-left: 30px;
+			background-color: rgba(0, 0, 0, 45%);
+			margin: 80px 0;
+			margin-bottom: 150px;
+}
+.home{
+		
+}
+.home h1{
+			font-size: 28px;
+			color: white;
+			margin-bottom: 2px;
+}
+.home p{
+			font-size: 16px;
+			font-weight: 500;
+			color: white;
+			margin-top: 2px;
+}
+.button{
+			padding-bottom: 10px;
+}
+.button button{
+			border-style: none;
+			border-radius: 5px;
+			background-color: rgba(0, 0, 0, 45%);
+			padding: 13px 35px;
+}
+/*banner end*/
+/*services start*/
+#services{
+			overflow: hidden;
+}
+.villa{
+			width: 20%;
+			float: left;
+			margin: 80px 125px 80px 125px
+}
+.villa h2{
+			width: 50%;
+			margin: 0 auto;
+}
+.villa img{
+			width: 100%;
+}
+.villa p{
+			width: 95%;
+			margin: 0 auto;
+}
+.villa button{
+			border: none;
+			color: white;
+			background-color: #405D7F;
+			padding: 10px 40px;
+			border-radius: 5px;
+			margin: 50px 0px 50px 110px;
+}
+/*services end*/
+/*footer start*/
+footer{
+			width: 22%;
+			margin: 0 auto;
+}
+footer p:first-child{
+			color: #365271;
+}
+footer p:last-child{
+			color: #365271;
+			font-size: 14px;
+}
+footer div{
+			width: 98%;
+			margin: 0 auto;
+			float: left;
+}
+footer div img{
+	width: 9%;
+	margin: 5px 2px 50px 2px;
+}
+footer div a:first-child{
+			margin-left: 100px;
+}
+/*footer end*/
