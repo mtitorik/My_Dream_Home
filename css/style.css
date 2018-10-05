@@ -94,6 +94,9 @@ header{
 			float: left;
 			margin: 80px 6%;
 }
+.services:last-child{
+			margin-right: 0;
+}
 .villa h2{
 			width: 50%;
 			margin: 0 auto;
